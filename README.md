@@ -5,3 +5,5 @@ Includes Score system, Levels and Enemies.
 
 Improvements that could be made:
 I can try and work on adding a score sytem.
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
