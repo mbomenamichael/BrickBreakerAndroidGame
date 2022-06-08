@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brick Breaker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mode_ready">Tap To Play</string>
+    <string name="mode_pause">Game Paused</string>
+    <string name="mode_lose">You Lost. Tap To Try Again!</string>
+    <string name="mode_win">You Win</string>
+    <string name="mode_next_level">You have passed this level... \nOnto the next!</string>
+    <string name="mode_life_lost">You have lost a life.</string>
+    <string name="score_text">Score: 0</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_resume">Resume</string>
+    <string name="message_stopped">Stopped</string>
+    <string name="menu_title">Brick Breaker</string>
+
+</resources>

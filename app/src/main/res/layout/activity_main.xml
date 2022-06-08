@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_list">
+
+    <uk.ac.reading.sis05kol.mooc.GameView
+        android:id="@+id/gamearea"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/gameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="952dp">
+
+        <!-- SCORE -->
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/playsir"
+            android:gravity="top"
+            android:paddingLeft="10sp"
+            android:paddingTop="5sp"
+            android:textColor="#ffffffff"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <!-- TAP TO PLAY  -->
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/playsir"
+            android:gravity="center_horizontal"
+            android:text="@string/mode_ready"
+            android:textColor="#ffffffff"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <!-- PAUSE BUTTON -->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="355dp"
+            android:layout_marginTop="10dp"
+            android:onClick="mainMenu"
+            android:src="@drawable/menu_button" />
+
+    </RelativeLayout>
+</FrameLayout>
